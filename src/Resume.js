@@ -32,7 +32,7 @@ const Resume = () => {
                          <a href="#education">Education</a>
                          <a href="#projects">Projects</a>
                          <a href="#contact">Contact</a>
-                         <button class="navcv"><a style={{paddingRight:6 }}  href="Sharmila_Nagaraj now" download="" > Download CV</a></button> 
+                         <button class="navcv"> <a style={{paddingRight:6 }}  href="https://drive.google.com/file/d/1FHLsCsJgyr92RfgT6WdMxxn7-S_2tL4_/view?usp=drivesdk" download="" > Download CV</a></button> 
                     </div>
         </div>
    
@@ -50,7 +50,7 @@ const Resume = () => {
             </div>
             <div class="hire-cv">
                 <button class="hire">Hire me</button>
-                <button class="cv1"><a class="download" href="Sharmila_Nagaraj now" download="">Download CV<Link style={{paddingLeft:3}} ><FaDownload /></Link></a></button>
+                <button class="cv1"><a class="download" href="https://drive.google.com/file/d/1FHLsCsJgyr92RfgT6WdMxxn7-S_2tL4_/view?usp=drivesdk" download="">Download CV<Link style={{paddingLeft:3}} ><FaDownload /></Link></a></button>
             </div>
 
             <div className='elements'>
