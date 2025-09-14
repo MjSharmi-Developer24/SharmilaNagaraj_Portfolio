@@ -1,4 +1,5 @@
 
+import { MdCommit } from 'react-icons/md';
 import Resume from './Resume';
 
 
@@ -9,4 +10,4 @@ const App = () => {
     </div>
   );
 }
-export default App;
+export default App
