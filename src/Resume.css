@@ -1,0 +1,914 @@
+body{
+    top: 0;
+    left: 0;
+    padding: 0;
+    background-color: rgb(5, 0, 0);
+    
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+
+
+nav{
+    z-index: 1;
+    position:fixed;
+    
+}
+.flex-part{
+    display: flex;
+}
+.second-part{
+    margin-top: 130px;
+}
+.s-head{
+ 
+ padding-left: 60px;
+ padding-top: 15px;
+ font-size: 33px;
+ 
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ color: darkcyan;
+ 
+}
+
+
+.s-head span{
+   color: red
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.navcv{
+    border: 2px solid gray;
+    border-radius: 5px;
+    background: linear-gradient(darkblue,red);
+     border: 0px;
+    width: 160px;
+      height: 45px;
+      
+}
+
+.linkers {
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: black;
+    border: 1px solid white;
+    width: 30px; 
+    color: black;
+    padding-left: 13px; 
+    border-radius: 50%;
+    height: 25px; 
+    padding-top:7px;
+}
+.linkers1{
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: black;
+    border: 1px solid white;
+    width: 30px; 
+    padding-left: 13px; 
+    border-radius: 50%;
+    height: 25px; 
+    padding-top:7px;
+}
+.linkers2{
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: black;
+    border: 1px solid white;
+    width: 30px; 
+    padding-left: 13px; 
+    border-radius: 50%;
+    height: 25px; 
+    padding-top:7px;
+}
+.linkers3{
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color:black;
+    border: 1px solid white;
+    width: 30px; 
+    padding-left: 13px; 
+    border-radius: 50%;
+    height: 25px; 
+    padding-top:7px;
+}
+.elements{
+    display: flex;
+    
+}
+.elements .linkers:hover{
+    
+    background: linear-gradient(darkcyan,orangered);
+    color: white;
+
+}
+.elements .linkers1:hover{
+    background: linear-gradient(darkcyan,orangered);
+    color: white;
+}
+.elements .linkers2:hover{
+    background: linear-gradient(darkcyan,orangered);
+    color: white;
+}
+.elements .linkers3:hover{
+    background: linear-gradient(darkcyan,orangered);
+    color: white;
+    
+}
+.navcv:hover{
+    color: white;
+    border: 0px;
+}
+.img-part {
+    height:300px;
+    margin-top: 160px;
+    margin-left: 230px;
+    width:300px;
+}
+.img-part img{
+    
+    border: 3px solid orangered; 
+    width: 390px;
+    height: 420px;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 600px green;
+    
+}
+
+.topnav{
+    padding-left: 380px;
+    padding-top: 37px;
+   
+}
+
+ .topnav a:hover{
+    color:  rgb(226, 99, 9);
+    font-size: 24px;
+   
+}
+ .topnav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    padding-right: 44px;
+    color: white;
+    font-weight: 300;
+    transition: .3s;
+    
+}
+
+.name-butt{
+    margin-top: 50px;
+    margin-left: 90px;
+    height: 25px;
+    width: 150px;
+    color: white;
+    /* background-color:orangered; */
+    border: 0px;
+    border-radius: 4px;
+    background: linear-gradient(green,darkblue);
+}
+.name{
+    margin-left: 90px;
+    font-size: 40px;
+    margin-top: 40px;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.name span{
+    color:darkcyan;  
+}
+
+
+.name-butt:hover{
+    background: linear-gradient(red,darkorchid);
+    cursor: pointer;
+    font-weight: bold;
+}
+.para{
+    width: 500px;
+    margin-left: 90px;
+    margin-top: 40px;
+
+}
+.paragraph{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:wheat;
+    font-size: 19px;
+}
+.hire-cv{
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.hire{
+    height: 50px;
+    width: 110px;
+    background:linear-gradient(green,darkblue);
+    border: 0px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: white;
+   
+    cursor: pointer;
+}
+.hire:hover{
+    
+    background: linear-gradient(darkmagenta,orangered);
+    font-weight: bold;
+    
+}
+.cv1{
+    height:50px ;
+    width: 145px;
+    background-color:transparent;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    /* color: wheat; */
+    margin-left: 40px;
+}
+.cv1 a{
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+.cv1:hover{
+    background:linear-gradient(darkcyan,red);
+    border: 0px  ;
+    /* color: wheat; */
+}
+
+/* about */
+
+#about{
+    margin-top: 150px;
+}
+
+.about-name{
+    text-align: center; 
+    padding-top: 100px;
+    
+
+}
+
+.me{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkcyan;
+    padding-top: 30px;
+}
+.me span{
+    color: red;
+}
+
+.column1{
+    width: 500px;
+    margin-top: 110px;
+    margin-left: 100px;
+    height: 250px;
+    /* box-shadow: 1px 2px 2px 2px  grey; */
+    border-radius: 20px;
+    box-shadow: 0 0 25px skyblue;
+    background-color:#232323;
+    
+}
+.skill-box{
+    width: 450px;
+    
+   
+    
+}
+.intro{
+    margin-left: 20px;
+    color: wheat;
+}
+.para-about{
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+.paragraph{
+    margin-left: 6px;
+}
+
+.about-top{
+    display: flex;
+    /* margin-bottom: 500px; */
+
+    
+   
+    
+    
+}
+.skill-top{
+    margin-left: 200px;
+    height: 265px;
+    margin-top: 107px;
+    /* box-shadow: 1px 2px 2px 2px  grey; */
+    border-radius: 20px;
+    background-color: #232323;
+    box-shadow: 0 0 25px skyblue;
+    width: 500px;
+    
+}
+.skill-top h2{
+   margin-left:20px ;
+   color: wheat;
+   
+}
+.p-butt{
+    height: 45px;
+    margin-left: 300px;
+    background: linear-gradient(darkblue,red );
+    border: 0px;
+    width: 120px;
+    color: white;
+    border-radius: 30px;
+}
+.p-butt:hover{
+    font-size: 14px;
+    font-weight: bold;
+    background: linear-gradient(green,darkmagenta );
+}
+.skill-butt{
+  /* background-color:darkblue; */
+  background: linear-gradient(darkblue,green );
+  border: 0px;
+  height: 30px;
+  width: 70px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+
+}
+.skill-butt:hover{
+    font-size: 13px;
+    font-weight: bold;
+    background: linear-gradient(orangered,green );
+}
+.skill-butt1{
+    cursor: pointer;
+    width: 100px;
+    color: white;
+    background: linear-gradient(darkblue,green );
+    border-radius: 7px;
+    border: 0px;
+    height: 30px;
+    margin-left: 20px;
+}
+.skill-butt1:hover{
+    font-size: 13px;
+    font-weight: bold;
+    background: linear-gradient(orangered,green );
+}
+.skill-butt2:hover{
+    font-size: 13px;
+    font-weight: bold;
+    background: linear-gradient(orangered,green );
+}
+.skill-butt3:hover{
+    font-size: 13px;
+    font-weight: bold;
+    background: linear-gradient(orangered,green );
+}
+.skill-butt2{
+    width: 160px;
+    color: white;
+    background: linear-gradient(darkblue,green);
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 7px;
+    border: 0px;
+    cursor: pointer;
+}
+.skill-butt3{
+    width: 240px;
+    color: white;
+    background: linear-gradient(darkblue,green);
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 7px;
+    border: 0px;
+    cursor: pointer;
+}
+
+/* projects */
+
+
+
+
+.edu-name{
+    padding-top: 140px;
+    align-items: center;
+    text-align: center;
+    
+}
+/* #education{
+    margin-top: 310px;
+} */
+
+.edu-name h1{
+         color: darkcyan;
+         padding-bottom: 50px;
+}
+.edu-name span{
+    color:red;
+    
+}
+.shadow-box{
+    display: flex;
+}
+
+article{
+    width: 300px;
+    height: 200px;
+    
+    position: relative;
+    /* margin: auto; */
+    margin-left: 29px;
+  
+    
+}
+article a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    z-index: 3;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1rem;
+}
+article .content{
+    margin-top: 0.5rem;
+    transition: all 0.8s;
+    max-height: 0;
+    opacity: 0;
+}
+article:hover .image{
+    transform: scale(1.1);
+}
+article:hover .image::before{
+    opacity: 0;
+
+}
+article:hover .image::after{
+    opacity: 0.35;
+    
+}
+.image img{
+    height: 100%;
+    
+    width: 100%;
+    object-position: center;
+    
+   object-fit: cover;
+   
+   
+}
+.image::before,
+.image::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: all 0.5s;
+
+}
+.image::before{
+    background: darkcyan;
+    opacity: 0.75;
+    z-index: 1;
+}
+.image::after{
+    background: #000;
+    opacity: 0.25;
+    z-index: 2;
+}
+
+.image img:hover{
+    content: "view code";
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+
+
+.image{
+   
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    transition: transform 0.5s;
+    height: 200px;
+    width: 310px;
+      border-radius: 45px;
+} 
+
+
+article:hover .content{
+    max-height: 5rem;
+    opacity: 1;
+}
+
+
+
+/* education */
+
+#education{
+    padding-top: 100px;
+
+}
+
+.edu-head{
+    color: teal;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.edu-head span{
+color: red;
+}
+.edulist1{
+
+    /* color: white; */
+    background-color:#232323;
+    height: 170px;
+    width: 360px;
+    border-radius:15px;
+    box-shadow: 0 0px 20px red;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-left: 60px;
+    
+    
+}
+
+.edulist2{
+    /* color: wheat; */
+    background-color:#232323;
+    height: 170px;
+    width: 360px;
+    border-radius:15px;
+      margin-left: 85px;
+      font-weight: bold;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    box-shadow: 0 0px 20px green;
+      
+}
+.edulist3{
+    /* color: white; */
+    background-color:#232323;
+    height: 170px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 0px 20px orange;
+    width: 360px;
+    border-radius:15px;
+      margin-left: 85px;
+}
+.edulist4{
+    /* color: white; */
+    background-color:#232323;
+    height: 170px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 0px 20px darkblue;
+    width: 360px;
+    border-radius:15px;
+    text-align: center; 
+     margin-left: 250px;
+     margin-top: 20px;
+     font-weight: bold;
+     
+      
+}
+.flexedu1{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.edulist5{
+     color: wheat;
+    background-color:#232323;
+    height: 170px;
+    box-shadow: 0 0px 20px darkmagenta;
+    width: 360px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius:15px;
+    text-align: center;
+    margin-left: 180px;
+    margin-top: 20px;
+    font-weight: bold;
+    
+}
+
+
+.edulist5 a{
+    color: whitesmoke;
+
+}
+.edulist5 a:hover{
+color: skyblue;
+cursor: pointer;
+}
+.edulist1 button{
+color: white;
+background: linear-gradient(darkgreen, darkblue);
+border: 0;
+border-radius: 14px;
+height: 40px;
+width: 150px;
+font-weight: bold;
+font-size: 17px;
+margin-right: 7px;
+}
+.edulist2 button{
+    color: white;
+background: linear-gradient(darkgreen, darkblue);
+border: 0;
+border-radius: 14px;
+height: 40px;
+width: 150px;
+font-weight: bold;
+font-size: 17px;
+margin-right: 7px;
+}
+.edulist3 button{
+    color: white;
+background: linear-gradient(darkgreen, darkblue);
+border: 0;
+border-radius: 14px;
+height: 40px;
+width: 150px;
+font-weight: bold;
+font-size: 17px;
+margin-right: 7px;
+}
+.edulist4 button{
+    color: white;
+background: linear-gradient(darkgreen, darkblue);
+border: 0;
+border-radius: 14px;
+height: 40px;
+width: 150px;
+font-weight: bold;
+font-size: 17px;
+margin-right: 7px;
+
+}
+.edulist1 button:hover{
+font-size: 18px;
+background: linear-gradient(darkcyan,red);
+
+}
+.edulist2 button:hover{
+font-size: 18px;
+background: linear-gradient(darkcyan,darkgreen);
+
+}
+.edulist3 button:hover{
+font-size: 18px;
+background: linear-gradient(darkcyan,orange);
+
+}
+
+.edulist4 button:hover{
+font-size: 18px;
+background: linear-gradient(darkcyan,navy);
+
+}
+.edulist1 h3{
+font-size: 20px;
+color:khaki;
+font-weight: bold;
+
+
+}
+.edulist2 h3{
+    font-size: 20px;
+color:khaki;
+
+}
+.edulist3 h3{
+    font-size: 20px;
+color:khaki;
+
+}
+.edulist4 h3{
+    font-size: 20px;
+color:khaki;
+
+
+}
+.edulist5 h3{
+    font-size: 20px;
+color:khaki;
+
+
+}
+.edulist1 p{
+    color: whitesmoke;
+}
+.edulist2 p{
+    color: whitesmoke;
+}
+.edulist3 p{
+    color: whitesmoke;
+}
+
+.edulist4 p{
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+/* contact */
+
+
+#contact{
+    padding-top: 110px;
+}
+.get-contact {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 25px;
+}
+.get-contact p{
+    color: red;
+    font-weight: bold;
+}
+
+.get-contact .ptag{
+    color: white;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contact-box{
+    background-color: #232323;
+    height:100px ;
+    width: 270px;
+    /* margin-top:40px; */
+    box-shadow: 0 0 10px grey;
+    align-items: center;
+    text-align: center;
+    margin-left: 270px;
+    border-radius: 10px;  
+     
+}
+
+.contact-box h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    padding-bottom: 2px;
+    margin-bottom: 9px;
+    color: wheat;
+    background-color: red;
+    text-align: center;
+}
+.contact-box1 h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    padding-bottom: 2px;
+     margin-bottom: 9px;
+    color: wheat;
+     background-color: red;
+     text-align: center;
+}
+
+.contact-box p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    color:white;
+    margin-bottom: 7px;
+    
+    font-weight: bold;
+    
+}
+.contact-box1 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    font-weight: bold;
+    /* padding-top: 4px; */
+    color:white;
+     margin-bottom: 4px;
+   }
+.contact-box1 a{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    color: red;
+    padding-top: 1px;
+    text-decoration: none;
+    
+}
+.contact-box a{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    padding-top: 1px;
+    text-decoration: none;
+    color: red;
+}
+.contact-box1{
+    background-color: #232323;
+    height:100px ;
+    width: 270px;
+    align-items: center;
+    margin-left: 270px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+    
+}
+
+.username{
+    border: 1px solid white;
+    margin-top: 20px;
+    background-color: black;
+    height: 37px;
+    width: 400px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    
+}
+.contact-box:hover{
+    background: linear-gradient(darkblue,darkgreen);
+    font-size: 15px;
+}
+.contact-box1:hover{
+    background: linear-gradient(darkblue,darkgreen);
+    font-size: 15px;
+}
+.tarea{
+    border: 1px solid white;
+    margin-top: 20px;
+    background-color: black;
+    height: 30px;
+    width: 400px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+   
+}
+
+.topform{
+    display: flex;
+}
+.form2{
+    margin-left: 200px;
+    margin-top: 10px;
+    
+}
+.form1{
+    margin-bottom: 43px;
+}
+.message{
+      height: 50px;
+      width: 150px;
+      border-radius: 4px;
+      background-color: rgb(224, 15, 15);
+      border: 0px;
+      color: white;
+      font-size: 16px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.message:hover{
+    font-size: 18px;
+    background: linear-gradient(blue,orangered);
+    box-shadow: 0 0 10px darkgreen  ;
+}
